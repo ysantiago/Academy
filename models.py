@@ -8,7 +8,7 @@ class Teachers(models.Model):
 	biography = fields.Html()
 
 	# course_ids = fields.One2many('academy.courses', 'teacher_id', string="Courses")
-
+	# Esto es una prueba
 	course_ids = fields.One2many('product.template', 'teacher_id', string="Courses")
 
 class Courses(models.Model):
